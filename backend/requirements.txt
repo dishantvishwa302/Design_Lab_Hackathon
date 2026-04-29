@@ -1,0 +1,49 @@
+# Requirements for Python Backend
+
+# FastAPI and Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Environment and Configuration
+python-dotenv==1.0.0
+pydantic>=2.7.4,<3
+pydantic-settings>=2.1.0
+
+# Database
+sqlalchemy==2.0.23
+
+# PDF and Document Processing
+pypdf==3.17.1
+pdfplumber==0.10.3
+python-docx==0.8.11
+
+# LangChain ecosystem — pinned as a compatible set
+# langchain-openai 0.2.8 requires langchain-core>=0.3.17
+langchain==0.3.7
+langchain-openai==0.2.8
+langchain-community==0.3.7
+langchain-core==0.3.20
+
+# OpenAI
+openai>=1.54.0
+tiktoken>=0.7.0
+
+# Vector Stores and Embeddings
+faiss-cpu>=1.8.0
+numpy>=1.24.3
+
+# Web Search and HTTP
+requests==2.31.0
+beautifulsoup4==4.12.2
+arxiv==2.1.0
+
+# Utilities
+typing-extensions>=4.12.2
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.0
+flake8==6.1.0
