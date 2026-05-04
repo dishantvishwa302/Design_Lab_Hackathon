@@ -97,7 +97,7 @@ npm run dev
 - **API Docs**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Upload a Paper
 1. Go to "Upload" tab
